@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Geography Quiz</title>
+    <description>Explore world geography, countries, capitals, and physical features</description>
+    <subject>geography</subject>
+    
+    <question id="geo_001" type="multiple-choice" difficulty="easy">
+        <text>What is the capital of France?</text>
+        <option id="a">London</option>
+        <option id="b">Berlin</option>
+        <option id="c">Paris</option>
+        <option id="d">Madrid</option>
+        <correct-answer>c</correct-answer>
+        <explanation>Paris is the capital and largest city of France.</explanation>
+    </question>
+    
+    <question id="geo_002" type="multiple-choice" difficulty="medium">
+        <text>Which is the longest river in the world?</text>
+        <option id="a">Amazon River</option>
+        <option id="b">Nile River</option>
+        <option id="c">Mississippi River</option>
+        <option id="d">Yangtze River</option>
+        <correct-answer>b</correct-answer>
+        <explanation>The Nile River in Africa is generally considered the longest river in the world at about 6,650 km.</explanation>
+    </question>
+    
+    <question id="geo_003" type="multiple-choice" difficulty="easy">
+        <text>How many continents are there?</text>
+        <option id="a">5</option>
+        <option id="b">6</option>
+        <option id="c">7</option>
+        <option id="d">8</option>
+        <correct-answer>c</correct-answer>
+        <explanation>There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.</explanation>
+    </question>
+    
+    <question id="geo_004" type="multiple-choice" difficulty="hard">
+        <text>Which country has the most time zones?</text>
+        <option id="a">Russia</option>
+        <option id="b">United States</option>
+        <option id="c">China</option>
+        <option id="d">France</option>
+        <correct-answer>d</correct-answer>
+        <explanation>France has 12 time zones due to its overseas territories, more than any other country.</explanation>
+    </question>
+    
+    <question id="geo_005" type="multiple-choice" difficulty="medium">
+        <text>What is the smallest country in the world?</text>
+        <option id="a">Monaco</option>
+        <option id="b">Vatican City</option>
+        <option id="c">San Marino</option>
+        <option id="d">Liechtenstein</option>
+        <correct-answer>b</correct-answer>
+        <explanation>Vatican City is the smallest country in the world with an area of just 0.17 square miles (0.44 km²).</explanation>
+    </question>
+</quiz>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Chemistry Quiz</title>
+    <description>Test your knowledge of elements, compounds, chemical reactions, and lab work</description>
+    <subject>chemistry</subject>
+    
+    <question id="chem_001" type="multiple-choice" difficulty="easy">
+        <text>What is the chemical symbol for gold?</text>
+        <option id="a">Go</option>
+        <option id="b">Gd</option>
+        <option id="c">Au</option>
+        <option id="d">Ag</option>
+        <correct-answer>c</correct-answer>
+        <explanation>The chemical symbol for gold is Au, derived from the Latin word "aurum".</explanation>
+    </question>
+    
+    <question id="chem_002" type="multiple-choice" difficulty="medium">
+        <text>What is the pH of pure water at 25°C?</text>
+        <option id="a">6</option>
+        <option id="b">7</option>
+        <option id="c">8</option>
+        <option id="d">9</option>
+        <correct-answer>b</correct-answer>
+        <explanation>Pure water has a pH of 7 at 25°C, which is considered neutral (neither acidic nor basic).</explanation>
+    </question>
+    
+    <question id="chem_003" type="multiple-choice" difficulty="easy">
+        <text>How many electrons does a neutral hydrogen atom have?</text>
+        <option id="a">0</option>
+        <option id="b">1</option>
+        <option id="c">2</option>
+        <option id="d">3</option>
+        <correct-answer>b</correct-answer>
+        <explanation>A neutral hydrogen atom has 1 proton and 1 electron, making it the simplest atom.</explanation>
+    </question>
+    
+    <question id="chem_004" type="multiple-choice" difficulty="hard">
+        <text>What is Avogadro's number (approximately)?</text>
+        <option id="a">6.02 × 10²³</option>
+        <option id="b">3.14 × 10²³</option>
+        <option id="c">1.60 × 10²³</option>
+        <option id="d">9.81 × 10²³</option>
+        <correct-answer>a</correct-answer>
+        <explanation>Avogadro's number is approximately 6.022 × 10²³, representing the number of particles in one mole.</explanation>
+    </question>
+    
+    <question id="chem_005" type="multiple-choice" difficulty="medium">
+        <text>What type of bond forms between a metal and a non-metal?</text>
+        <option id="a">Covalent bond</option>
+        <option id="b">Ionic bond</option>
+        <option id="c">Metallic bond</option>
+        <option id="d">Hydrogen bond</option>
+        <correct-answer>b</correct-answer>
+        <explanation>Ionic bonds form between metals and non-metals through the transfer of electrons from metal to non-metal atoms.</explanation>
+    </question>
+</quiz>

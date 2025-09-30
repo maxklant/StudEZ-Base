@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudEZ Quiz</title>
+    <meta name="description" content="Interactive quiz interface for StudEZ learning platform">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">StudEZ</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#subjects">Subjects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Quiz Container -->
+    <main class="quiz-main">
+        <div class="container">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <h1 id="quiz-title">Loading Quiz...</h1>
+                    <p id="quiz-description">Please wait while we load your quiz</p>
+                </div>
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <span class="progress-text" id="progress-text">0 / 0</span>
+                </div>
+            </div>
+
+            <!-- Quiz Content -->
+            <div class="quiz-content" id="quiz-content">
+                <!-- Loading State -->
+                <div class="loading-state" id="loading-state">
+                    <i class="fas fa-spinner fa-spin loading-icon"></i>
+                    <p>Loading your quiz...</p>
+                </div>
+
+                <!-- Question Container -->
+                <div class="question-container" id="question-container" style="display: none;">
+                    <div class="question-header">
+                        <span class="question-number" id="question-number">Question 1</span>
+                        <span class="difficulty-badge" id="difficulty-badge">Easy</span>
+                    </div>
+                    <h2 class="question-text" id="question-text">Question will appear here</h2>
+                    <div class="options-container" id="options-container">
+                        <!-- Options will be dynamically generated -->
+                    </div>
+                    <div class="question-actions">
+                        <button class="btn btn-secondary" id="prev-btn" onclick="previousQuestion()" disabled>
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </button>
+                        <button class="btn btn-primary" id="next-btn" onclick="nextQuestion()" disabled>
+                            Next <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Results Container -->
+                <div class="results-container" id="results-container" style="display: none;">
+                    <div class="results-header">
+                        <i class="fas fa-trophy results-icon"></i>
+                        <h2>Quiz Complete!</h2>
+                    </div>
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span class="score-number" id="final-score">0</span>
+                            <span class="score-total" id="score-total">/ 0</span>
+                        </div>
+                        <div class="score-percentage" id="score-percentage">0%</div>
+                    </div>
+                    <div class="results-details">
+                        <div class="result-item">
+                            <i class="fas fa-check-circle correct-icon"></i>
+                            <span>Correct: <span id="correct-count">0</span></span>
+                        </div>
+                        <div class="result-item">
+                            <i class="fas fa-times-circle incorrect-icon"></i>
+                            <span>Incorrect: <span id="incorrect-count">0</span></span>
+                        </div>
+                        <div class="result-item">
+                            <i class="fas fa-clock time-icon"></i>
+                            <span>Time: <span id="total-time">0:00</span></span>
+                        </div>
+                    </div>
+                    <div class="results-actions">
+                        <button class="btn btn-primary" onclick="reviewAnswers()">
+                            <i class="fas fa-eye"></i> Review Answers
+                        </button>
+                        <button class="btn btn-secondary" onclick="retakeQuiz()">
+                            <i class="fas fa-redo"></i> Retake Quiz
+                        </button>
+                        <a href="index.html" class="btn btn-outline">
+                            <i class="fas fa-home"></i> Back to Home
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Review Container -->
+                <div class="review-container" id="review-container" style="display: none;">
+                    <div class="review-header">
+                        <h2>Review Your Answers</h2>
+                        <button class="btn btn-secondary" onclick="showResults()">
+                            <i class="fas fa-arrow-left"></i> Back to Results
+                        </button>
+                    </div>
+                    <div class="review-questions" id="review-questions">
+                        <!-- Review questions will be generated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Timer Display -->
+    <div class="timer-display" id="timer-display">
+        <i class="fas fa-clock"></i>
+        <span id="timer-text">00:00</span>
+    </div>
+
+    <!-- Error Modal -->
+    <div class="modal" id="error-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Error Loading Quiz</h3>
+                <button class="modal-close" onclick="closeErrorModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="error-message">There was an error loading the quiz. Please try again.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="retryLoadQuiz()">Try Again</button>
+                <a href="index.html" class="btn btn-secondary">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>History Quiz</title>
+    <description>Journey through world history, ancient civilizations, and historical events</description>
+    <subject>history</subject>
+    
+    <question id="hist_001" type="multiple-choice" difficulty="easy">
+        <text>In which year did World War II end?</text>
+        <option id="a">1944</option>
+        <option id="b">1945</option>
+        <option id="c">1946</option>
+        <option id="d">1947</option>
+        <correct-answer>b</correct-answer>
+        <explanation>World War II ended in 1945 with the surrender of Japan in September.</explanation>
+    </question>
+    
+    <question id="hist_002" type="multiple-choice" difficulty="medium">
+        <text>Who was the first President of the United States?</text>
+        <option id="a">Thomas Jefferson</option>
+        <option id="b">John Adams</option>
+        <option id="c">George Washington</option>
+        <option id="d">Benjamin Franklin</option>
+        <correct-answer>c</correct-answer>
+        <explanation>George Washington served as the first President of the United States from 1789 to 1797.</explanation>
+    </question>
+    
+    <question id="hist_003" type="multiple-choice" difficulty="easy">
+        <text>Which ancient wonder of the world was located in Egypt?</text>
+        <option id="a">Hanging Gardens</option>
+        <option id="b">Colossus of Rhodes</option>
+        <option id="c">Great Pyramid of Giza</option>
+        <option id="d">Lighthouse of Alexandria</option>
+        <correct-answer>c</correct-answer>
+        <explanation>The Great Pyramid of Giza is the only surviving ancient wonder and is located in Egypt.</explanation>
+    </question>
+    
+    <question id="hist_004" type="multiple-choice" difficulty="hard">
+        <text>The French Revolution began in which year?</text>
+        <option id="a">1789</option>
+        <option id="b">1776</option>
+        <option id="c">1792</option>
+        <option id="d">1799</option>
+        <correct-answer>a</correct-answer>
+        <explanation>The French Revolution began in 1789 with the storming of the Bastille on July 14th.</explanation>
+    </question>
+    
+    <question id="hist_005" type="multiple-choice" difficulty="medium">
+        <text>Which empire was ruled by Julius Caesar?</text>
+        <option id="a">Greek Empire</option>
+        <option id="b">Roman Empire</option>
+        <option id="c">Egyptian Empire</option>
+        <option id="d">Persian Empire</option>
+        <correct-answer>b</correct-answer>
+        <explanation>Julius Caesar was a Roman general and statesman who played a critical role in the Roman Republic.</explanation>
+    </question>
+</quiz>

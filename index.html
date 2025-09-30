@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudEZ - Master Your School Subjects</title>
+    <meta name="description" content="Interactive quizzes for all school subjects. Test your knowledge and improve your grades with StudEZ.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">StudEZ</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Master Your School Subjects</h1>
+            <p>Interactive quizzes designed to boost your knowledge and improve your grades</p>
+            <a href="#subjects" class="cta-button">Start Learning Today</a>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section class="subjects-section" id="subjects">
+        <div class="container">
+            <h2 class="section-title">Choose Your Subject</h2>
+            <div class="subjects-grid">
+                <div class="subject-card math" onclick="selectSubject('mathematics')">
+                    <i class="fas fa-calculator subject-icon"></i>
+                    <h3>Mathematics</h3>
+                    <p>Algebra, Geometry, Calculus, and more mathematical concepts</p>
+                    <span class="quiz-count">25+ Quizzes</span>
+                </div>
+
+                <div class="subject-card science" onclick="selectSubject('science')">
+                    <i class="fas fa-flask subject-icon"></i>
+                    <h3>Science</h3>
+                    <p>Physics, Biology, and General Science topics</p>
+                    <span class="quiz-count">30+ Quizzes</span>
+                </div>
+
+                <div class="subject-card english" onclick="selectSubject('english')">
+                    <i class="fas fa-book-open subject-icon"></i>
+                    <h3>English</h3>
+                    <p>Grammar, Literature, Writing, and Reading Comprehension</p>
+                    <span class="quiz-count">20+ Quizzes</span>
+                </div>
+
+                <div class="subject-card history" onclick="selectSubject('history')">
+                    <i class="fas fa-landmark subject-icon"></i>
+                    <h3>History</h3>
+                    <p>World History, Ancient Civilizations, and Historical Events</p>
+                    <span class="quiz-count">18+ Quizzes</span>
+                </div>
+
+                <div class="subject-card geography" onclick="selectSubject('geography')">
+                    <i class="fas fa-globe-americas subject-icon"></i>
+                    <h3>Geography</h3>
+                    <p>World Geography, Maps, Countries, and Capitals</p>
+                    <span class="quiz-count">15+ Quizzes</span>
+                </div>
+
+                <div class="subject-card chemistry" onclick="selectSubject('chemistry')">
+                    <i class="fas fa-atom subject-icon"></i>
+                    <h3>Chemistry</h3>
+                    <p>Elements, Compounds, Chemical Reactions, and Lab Work</p>
+                    <span class="quiz-count">22+ Quizzes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose StudEZ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Track Progress</h3>
+                    <p>Monitor your improvement with detailed analytics and progress reports</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt feature-icon"></i>
+                    <h3>Mobile Friendly</h3>
+                    <p>Study anywhere, anytime with our responsive design that works on all devices</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-trophy feature-icon"></i>
+                    <h3>Achievements</h3>
+                    <p>Earn badges and certificates as you complete quizzes and reach milestones</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Timed Quizzes</h3>
+                    <p>Practice under pressure with timed quizzes that simulate real exam conditions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 StudEZ. All rights reserved. Made for students, by students.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">StudEZ</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Master Your School Subjects</h1>
+            <p>Interactive quizzes designed to boost your knowledge and improve your grades</p>
+            <a href="#subjects" class="cta-button">Start Learning Today</a>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section class="subjects-section" id="subjects">
+        <div class="container">
+            <h2 class="section-title">Choose Your Subject</h2>
+            <div class="subjects-grid">
+                <div class="subject-card math" onclick="selectSubject('mathematics')">
+                    <i class="fas fa-calculator subject-icon"></i>
+                    <h3>Mathematics</h3>
+                    <p>Algebra, Geometry, Calculus, and more mathematical concepts</p>
+                    <span class="quiz-count">25+ Quizzes</span>
+                </div>
+
+                <div class="subject-card science" onclick="selectSubject('science')">
+                    <i class="fas fa-flask subject-icon"></i>
+                    <h3>Science</h3>
+                    <p>Physics, Biology, and General Science topics</p>
+                    <span class="quiz-count">30+ Quizzes</span>
+                </div>
+
+                <div class="subject-card english" onclick="selectSubject('english')">
+                    <i class="fas fa-book-open subject-icon"></i>
+                    <h3>English</h3>
+                    <p>Grammar, Literature, Writing, and Reading Comprehension</p>
+                    <span class="quiz-count">20+ Quizzes</span>
+                </div>
+
+                <div class="subject-card history" onclick="selectSubject('history')">
+                    <i class="fas fa-landmark subject-icon"></i>
+                    <h3>History</h3>
+                    <p>World History, Ancient Civilizations, and Historical Events</p>
+                    <span class="quiz-count">18+ Quizzes</span>
+                </div>
+
+                <div class="subject-card geography" onclick="selectSubject('geography')">
+                    <i class="fas fa-globe-americas subject-icon"></i>
+                    <h3>Geography</h3>
+                    <p>World Geography, Maps, Countries, and Capitals</p>
+                    <span class="quiz-count">15+ Quizzes</span>
+                </div>
+
+                <div class="subject-card chemistry" onclick="selectSubject('chemistry')">
+                    <i class="fas fa-atom subject-icon"></i>
+                    <h3>Chemistry</h3>
+                    <p>Elements, Compounds, Chemical Reactions, and Lab Work</p>
+                    <span class="quiz-count">22+ Quizzes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose StudEZ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Track Progress</h3>
+                    <p>Monitor your improvement with detailed analytics and progress reports</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt feature-icon"></i>
+                    <h3>Mobile Friendly</h3>
+                    <p>Study anywhere, anytime with our responsive design that works on all devices</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-trophy feature-icon"></i>
+                    <h3>Achievements</h3>
+                    <p>Earn badges and certificates as you complete quizzes and reach milestones</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Timed Quizzes</h3>
+                    <p>Practice under pressure with timed quizzes that simulate real exam conditions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 StudEZ. All rights reserved. Made for students, by students.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>English Language Arts Quiz</title>
+    <description>Test your grammar, literature, and reading comprehension skills</description>
+    <subject>english</subject>
+    
+    <question id="eng_001" type="multiple-choice" difficulty="easy">
+        <text>Which of the following is a noun?</text>
+        <option id="a">Running</option>
+        <option id="b">Beautiful</option>
+        <option id="c">Quickly</option>
+        <option id="d">Book</option>
+        <correct-answer>d</correct-answer>
+        <explanation>A noun is a person, place, thing, or idea. "Book" is a thing, making it a noun.</explanation>
+    </question>
+    
+    <question id="eng_002" type="multiple-choice" difficulty="medium">
+        <text>What is the past tense of "go"?</text>
+        <option id="a">Goed</option>
+        <option id="b">Went</option>
+        <option id="c">Gone</option>
+        <option id="d">Going</option>
+        <correct-answer>b</correct-answer>
+        <explanation>"Went" is the simple past tense of "go". "Gone" is the past participle.</explanation>
+    </question>
+    
+    <question id="eng_003" type="multiple-choice" difficulty="easy">
+        <text>Which punctuation mark ends a question?</text>
+        <option id="a">Period (.)</option>
+        <option id="b">Exclamation mark (!)</option>
+        <option id="c">Question mark (?)</option>
+        <option id="d">Comma (,)</option>
+        <correct-answer>c</correct-answer>
+        <explanation>A question mark (?) is used to end interrogative sentences (questions).</explanation>
+    </question>
+    
+    <question id="eng_004" type="multiple-choice" difficulty="medium">
+        <text>Who wrote "Romeo and Juliet"?</text>
+        <option id="a">Charles Dickens</option>
+        <option id="b">William Shakespeare</option>
+        <option id="c">Jane Austen</option>
+        <option id="d">Mark Twain</option>
+        <correct-answer>b</correct-answer>
+        <explanation>"Romeo and Juliet" is a famous tragedy written by William Shakespeare in the early part of his career.</explanation>
+    </question>
+    
+    <question id="eng_005" type="multiple-choice" difficulty="hard">
+        <text>What is the term for a comparison using "like" or "as"?</text>
+        <option id="a">Metaphor</option>
+        <option id="b">Simile</option>
+        <option id="c">Alliteration</option>
+        <option id="d">Personification</option>
+        <correct-answer>b</correct-answer>
+        <explanation>A simile is a figure of speech that compares two things using "like" or "as". A metaphor makes a direct comparison without these words.</explanation>
+    </question>
+</quiz>

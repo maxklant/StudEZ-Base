@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Mathematics Quiz</title>
+    <description>Test your mathematical skills with algebra, geometry, and arithmetic problems</description>
+    <subject>mathematics</subject>
+    
+    <question id="math_001" type="multiple-choice" difficulty="easy">
+        <text>What is 15 + 27?</text>
+        <option id="a">40</option>
+        <option id="b">42</option>
+        <option id="c">44</option>
+        <option id="d">46</option>
+        <correct-answer>b</correct-answer>
+        <explanation>15 + 27 = 42. Add the units: 5 + 7 = 12, write 2 carry 1. Add the tens: 1 + 2 + 1 = 4.</explanation>
+    </question>
+    
+    <question id="math_002" type="multiple-choice" difficulty="medium">
+        <text>What is the value of x in the equation 3x + 7 = 22?</text>
+        <option id="a">3</option>
+        <option id="b">5</option>
+        <option id="c">7</option>
+        <option id="d">9</option>
+        <correct-answer>b</correct-answer>
+        <explanation>Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5.</explanation>
+    </question>
+    
+    <question id="math_003" type="multiple-choice" difficulty="medium">
+        <text>What is the area of a rectangle with length 8 cm and width 5 cm?</text>
+        <option id="a">13 cm²</option>
+        <option id="b">26 cm²</option>
+        <option id="c">40 cm²</option>
+        <option id="d">45 cm²</option>
+        <correct-answer>c</correct-answer>
+        <explanation>Area of rectangle = length × width = 8 × 5 = 40 cm².</explanation>
+    </question>
+    
+    <question id="math_004" type="multiple-choice" difficulty="hard">
+        <text>What is the value of 2³ × 3²?</text>
+        <option id="a">36</option>
+        <option id="b">48</option>
+        <option id="c">72</option>
+        <option id="d">108</option>
+        <correct-answer>c</correct-answer>
+        <explanation>2³ = 8 and 3² = 9, so 2³ × 3² = 8 × 9 = 72.</explanation>
+    </question>
+    
+    <question id="math_005" type="multiple-choice" difficulty="easy">
+        <text>What is 144 ÷ 12?</text>
+        <option id="a">10</option>
+        <option id="b">11</option>
+        <option id="c">12</option>
+        <option id="d">13</option>
+        <correct-answer>c</correct-answer>
+        <explanation>144 ÷ 12 = 12. You can verify: 12 × 12 = 144.</explanation>
+    </question>
+</quiz>

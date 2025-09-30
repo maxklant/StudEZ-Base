@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Science Quiz</title>
+    <description>Explore physics, biology, and general science concepts</description>
+    <subject>science</subject>
+    
+    <question id="sci_001" type="multiple-choice" difficulty="easy">
+        <text>What is the chemical symbol for water?</text>
+        <option id="a">H2O</option>
+        <option id="b">CO2</option>
+        <option id="c">NaCl</option>
+        <option id="d">O2</option>
+        <correct-answer>a</correct-answer>
+        <explanation>Water is composed of 2 hydrogen atoms and 1 oxygen atom, hence H2O.</explanation>
+    </question>
+    
+    <question id="sci_002" type="multiple-choice" difficulty="medium">
+        <text>What is the speed of light in a vacuum?</text>
+        <option id="a">300,000 km/s</option>
+        <option id="b">299,792,458 m/s</option>
+        <option id="c">150,000 km/s</option>
+        <option id="d">500,000 km/s</option>
+        <correct-answer>b</correct-answer>
+        <explanation>The speed of light in a vacuum is exactly 299,792,458 meters per second.</explanation>
+    </question>
+    
+    <question id="sci_003" type="multiple-choice" difficulty="easy">
+        <text>Which organ in the human body produces insulin?</text>
+        <option id="a">Liver</option>
+        <option id="b">Kidney</option>
+        <option id="c">Pancreas</option>
+        <option id="d">Heart</option>
+        <correct-answer>c</correct-answer>
+        <explanation>The pancreas produces insulin, which regulates blood sugar levels.</explanation>
+    </question>
+    
+    <question id="sci_004" type="multiple-choice" difficulty="medium">
+        <text>What is the atomic number of carbon?</text>
+        <option id="a">4</option>
+        <option id="b">6</option>
+        <option id="c">8</option>
+        <option id="d">12</option>
+        <correct-answer>b</correct-answer>
+        <explanation>Carbon has 6 protons in its nucleus, giving it an atomic number of 6.</explanation>
+    </question>
+    
+    <question id="sci_005" type="multiple-choice" difficulty="hard">
+        <text>What is the powerhouse of the cell?</text>
+        <option id="a">Nucleus</option>
+        <option id="b">Ribosome</option>
+        <option id="c">Mitochondria</option>
+        <option id="d">Endoplasmic Reticulum</option>
+        <correct-answer>c</correct-answer>
+        <explanation>Mitochondria are known as the powerhouse of the cell because they produce ATP (energy).</explanation>
+    </question>
+</quiz>
